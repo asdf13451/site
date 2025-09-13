@@ -1,120 +1,144 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Помогите! У нас хотят забрать нашу девочку</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f8fafc;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      color: #1e293b;
-    }
-    header {
-      background: #b91c1c;
-      color: white;
-      padding: 25px 20px;
-      text-align: center;
-      font-size: 24px;
-      font-weight: bold;
-    }
-    main {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-    .story-block {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      align-items: center;
-      background: linear-gradient(to bottom, #fff5f5, #ffeaea);
-      padding: 30px;
-      border-radius: 16px;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-    }
-    .story-block img {
-      width: 100%;
-      border-radius: 16px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-      flex: 1 1 300px;
-    }
-    .story-text {
-      flex: 2 1 400px;
-    }
-    .story-text h1 {
-      color: #b91c1c;
-      font-size: 32px;
-      margin-bottom: 20px;
-      font-weight: bold;
-    }
-    .cta-button {
-      display: inline-block;
-      margin-top: 40px;
-      text-align: center;
-      width: 100%;
-    }
-    .cta-button button {
-      background: #b91c1c;
-      color: white;
-      padding: 14px 24px;
-      border: none;
-      border-radius: 12px;
-      font-size: 18px;
-      cursor: pointer;
-      font-weight: bold;
-      transition: background 0.3s;
-    }
-    .cta-button button:hover {
-      background: #7f1d1d;
-    }
-    footer {
-      margin-top: 40px;
-      text-align: center;
-      font-size: 14px;
-      color: #64748b;
-      padding: 20px;
-    }
-    @media (max-width: 768px) {
-      .story-block {
-        flex-direction: column;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Помощь ребенку</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #f7f7f7, #e3f2fd);
+            color: #333;
+        }
+        header {
+            background-color: #d32f2f;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        main {
+            max-width: 950px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+        p span {
+            font-weight: bold;
+            color: #d32f2f; /* выделение ключевых фраз */
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            margin: 25px auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+        }
+        form {
+            margin-top: 30px;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 16px;
+            margin-top: 15px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 18px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 20px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        #counter {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #1976d2;
+            font-weight: bold;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
 
-<header>
-  Помогите! У нас хотят забрать нашу девочку
-</header>
+<header>Помощь ребенку — спасем жизнь вместе</header>
 
 <main>
-  <div class="story-block">
-    <img src="1000007279.jpg" alt="Наша девочка">
-    <div class="story-text">
-      <h1>Помогите! У нас хотят забрать нашу девочку</h1>
-      <p>Наша семья оказалась в страшной ситуации. Мы просим всех неравнодушных обратить внимание на эту историю.</p>
-      <p>Наш ребенок оказался в опасности, когда его биологическая мать попала в медикаментозную кому. С первых месяцев жизни девочка нуждалась в заботе, безопасности и любви, и именно тогда она была передана под опеку в нашу семью. Мы окружили её вниманием, заботой и сделали всё, чтобы она росла счастливой.</p>
-      <p>Сейчас судебные приставы требуют передачи ребенка по закону. Но кто учитывает её психологическое состояние? Как можно лишить маленького человека семьи, к которой она привыкла с 5 месяцев? Для неё мы — мама и папа, её дом, её поддержка.</p>
-      <p>Мы не против закона, но просим человеческого отношения. Ребёнок — это не бумага и не вещь, которую можно передать из рук в руки. Это маленькая девочка, которая боится потерять семью и всё привычное. Никто не спрашивает: как она будет чувствовать себя после разлуки? Кто услышит её плач, её страхи, её протест?</p>
-      <p>Мы обращаемся к обществу, к органам власти и ко всем, кто может помочь: услышьте наш крик о помощи. За сухими строчками закона стоит живой ребёнок, её судьба и её счастье. Мы верим, что можно найти решение, где во главу угла будет поставлено благо ребёнка, а не только формальные требования.</p>
-      <p><strong>Пожалуйста, помогите нам сохранить семью для нашей девочки.</strong></p>
-    </div>
-  </div>
+    <p>
+        <span>Добрый день!</span><br><br>
+        Помогите нам сохранить жизнь и будущее нашей маленькой девочки. <span>Ситуация крайне тревожная и срочная.</span> 
+        Ребенок оказался в опасности, так как его биологическая мать находилась в длительной медикаментозной коме. С первых дней жизни малыш находился под нашей заботой, мы обеспечивали полное питание, медицинский уход и любовь, которых так нуждался ребенок.<br><br>
+        С пяти месяцев ребенок живет в нашей семье. За это время он научился доверять нам, смеяться, радоваться и развиваться в безопасной среде. Мы создавали для него атмосферу тепла и стабильности, что крайне важно для психики маленького человека.<br><br>
+        К сожалению, судебные приставы и органы опеки требуют передать ребенка другому лицу. <span>По закону учитываются только формальные критерии, но кто думает о психологическом состоянии малыша?</span> Ребенок привязан к нам, и разлучение с людьми, которые заботились о нем с рождения, может стать травмой на всю жизнь.<br><br>
+        Мы переживаем за эмоциональное и психическое здоровье ребенка. Любое решение без учёта стабильной привязанности может нанести непоправимый ущерб. Это не формальность и не игра — это судьба маленького человека, который заслуживает любви, заботы и безопасности.<br><br>
+        Мы обращаемся ко всем неравнодушным людям: <span>подпишите петицию, распространите информацию, помогите сохранить стабильность и безопасность для ребенка.</span> Каждый голос имеет значение и может спасти будущее девочки.<br><br>
+        Пожалуйста, не оставайтесь равнодушными. Любая поддержка, даже небольшая, важна для сохранения жизни и счастья ребенка.
+    </p>
 
-  <div class="cta-button">
-    <button onclick="navigator.share ? navigator.share({title:document.title, text:'Помогите! У нас хотят забрать нашу девочку', url:location.href}) : alert('Скопируйте ссылку и поделитесь: '+location.href)">
-      Поделиться
-    </button>
-  </div>
+    <img src="1000007279.jpg" alt="Картинка">
+<form id="petitionForm" action="https://formspree.io/f/ВАШ_КОД" method="POST">
+        <input type="text" name="name" placeholder="Ваше имя" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Комментарий (необязательно)"></textarea>
+        <button type="submit">Подписать</button>
+    </form>
+
+    <div id="counter">Подписали: 0 человек</div>
 </main>
 
 <footer>
-  Контакт: <a href="mailto:hello@example.com">hello@example.com</a>
+    Все права защищены. Ваша поддержка важна для защиты ребенка.
 </footer>
+
+<script>
+    // CountAPI для динамического счётчика
+    const namespace = 'petitionsite';
+    const key = 'child_protection';
+
+    function updateCounter() {
+        fetch(https://api.countapi.xyz/get/${namespace}/${key})
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('counter').innerText = Подписали: ${data.value} человек;
+            });
+    }
+
+    updateCounter();
+
+    document.getElementById('petitionForm').addEventListener('submit', function() {
+        // Увеличиваем счётчик при отправке формы
+        fetch(https://api.countapi.xyz/hit/${namespace}/${key})
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('counter').innerText = Подписали: ${data.value} человек;
+            });
+    });
+</script>
 
 </body>
 </html>
